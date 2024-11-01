@@ -31,8 +31,10 @@ pnpm install && pnpm run dev
 
 otherwise
 ```bash
-npm install && pnpm run dev
+npm install --force && pnpm run dev
 ```
+
+Just realized that Next.js did major update which is using React 19 which is not competible with other library yet so you need to do `npm install --force`
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
