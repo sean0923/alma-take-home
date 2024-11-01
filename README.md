@@ -8,6 +8,9 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 />
 ---
 
+## Notice
+You might notice that API key is exposed at `src/utils/firebase-client.ts` This is public API key so if you are worried then you should not. I am controlling data access by using `Firebase Security Rules`
+
 ## Data and file
 Leads data is stored in firebase. Data access is controlled by firebase rule below.
 <img width="547" alt="image" src="https://github.com/user-attachments/assets/68b9e683-6241-4827-a5ae-2b4b657200fd">
